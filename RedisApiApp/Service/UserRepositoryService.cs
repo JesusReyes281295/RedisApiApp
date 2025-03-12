@@ -37,7 +37,6 @@ public class UserRepositoryService : IUserRepositoryService
 
         foreach (var key in keys)
         {
-            // Ignorar la clave del contador
             if (key.ToString() == UserIdKey)
                 continue;
 
